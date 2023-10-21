@@ -130,18 +130,179 @@ class _ScreenTwoState extends State<ScreenTwo> {
              ),
            ),
            SizedBox(height: 24,),
-           Padding(
-             padding: const EdgeInsets.only(right: 120),
-             child: Text("Workout Programs",style: TextStyle(
-               fontSize: 18,
-               fontStyle: FontStyle.normal,
-               fontWeight: FontWeight.w600,
-             ),
-             ),
-           ),
-           SizedBox(height:16,),
+            Padding(
+              padding: const EdgeInsets.only(right: 120),
+              child: Text(
+                "Workout Programs",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontStyle: FontStyle.normal,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 16,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  "All Type",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
+                Text(
+                  "Full Body",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
+                Text(
+                  "Upper",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
+                Text(
+                  "Lower",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 24,
+            ),
+            Container(
+              color: Color(0xFFE4E7EC),
+              height: 160,
+              width: double.infinity,
+              child: Row(
+                children: [
+                  Column(
+                    children: [
+                      Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          Container(
+                            width: 100,
+                            height: 40,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8),
+                                color: Colors.white60),
+                          ),
+                          Text(
+                            "7 days",
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
+                          )
+                        ],
+                      ),
+                      Text(
+                        "Morning Yoga",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.w600),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        "Improve mental focus.",
+                        style: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.w400),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 60),
+                        child: Row(
+                          children: [
+                            Image(
+                              image: AssetImage("assets/images/colok.png"),
+                              width: 16,
+                            ),
+                            SizedBox(
+                              width: 4,
+                            ),
+                            Text("30 mins")
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  Image(
+                    image: AssetImage("assets/images/woman.png"),
+                    width: 150,
+                  )
+                ],
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              color: Color(0xFFE4E7EC),
+              height: 160,
+              width: double.infinity,
+              child: Row(
+                children: [
+                  Column(
+                    children: [
+                      Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          Container(
+                            width: 100,
+                            height: 40,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8),
+                                color: Colors.white60),
+                          ),
+                          Text(
+                            "3 days",
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
+                          )
+                        ],
+                      ),
+                      Text(
+                        "Plank Exercise",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.w600),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        "Improve posture and stability.",
+                        style: TextStyle(
+                            fontSize: 10, fontWeight: FontWeight.w900),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 60),
+                        child: Row(
+                          children: [
+                            Image(
+                              image: AssetImage("assets/images/colok.png"),
+                              width: 16,
+                            ),
+                            SizedBox(
+                              width: 4,
+                            ),
+                            Text("30 mins")
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  Image(
+                    image: AssetImage("assets/images/woman2.png"),
+                    width: 155,
+                  )
+                ],
+              ),
+            )
 
-         /*  Container(
+            /*  Container(
              height: 100, // This will control the height of the tab bar
              child: Column(
                children: [
