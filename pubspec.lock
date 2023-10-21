@@ -91,6 +91,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  form_page_view:
+    dependency: "direct main"
+    description:
+      name: form_page_view
+      sha256: dd09a76b5d3e9d458e2e022c5a1e875a9bb833e76994a718a0440391d953a861
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.4"
   google_fonts:
     dependency: "direct main"
     description:
@@ -240,6 +248,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  smooth_page_indicator:
+    dependency: "direct main"
+    description:
+      name: smooth_page_indicator
+      sha256: "725bc638d5e79df0c84658e1291449996943f93bacbc2cec49963dbbab48d8ae"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   source_span:
     dependency: transitive
     description:
